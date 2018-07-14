@@ -1,0 +1,1 @@
+# Ducksoft.SOA.DAL.Templates
