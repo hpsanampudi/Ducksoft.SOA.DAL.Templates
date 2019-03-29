@@ -55,6 +55,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataServices\xxxDBModel.WcfDataService.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>xxxDBModel.WcfDataService.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\xxxDBModel.IDbContext.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -93,6 +98,10 @@
     <None Include="_CreateNewNuGetPackage\DoNotModify\NuGet.exe" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DataServices\xxxDBModel.WcfDataService.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>xxxDBModel.WcfDataService.cs</LastGenOutput>
+    </Content>
     <Content Include="Models\xxxDBModel.IDbContext.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>xxxDBModel.IDbContext.cs</LastGenOutput>
